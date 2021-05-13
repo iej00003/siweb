@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header {
+    /*border: black 1px solid;*/
+    background: black; 
+    color:#FFFFFF;
+    height: 100px;
+}
+
+#d_menu_navegacion {
+    /*border: black 1px solid;*/
+    height: 50px;
+}
+
+#content {
+    /*border: black 1px solid;*/
+    float: right;
+    width: 80%;
+    min-height: 1000px;
+    background: #bbbbbb; 
+}
+
+aside {
+    /*border: black 1px solid;*/
+    float: left;
+    width: 20%;
+    min-height: 1000px;
+    background: #505050;
+        
+}
+
+footer {
+    float: left;
+    /*border: black 1px solid;*/
+    width: 100%;
+    background: black;
+    height: 150px;
+    color:#FFFFFF;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#lista_navegacion {
+    list-style-type: none;
+    padding: 0;
+}
+.boton_navegacion {
+    width: 16.666%;
+    float: left;
+    background: orange;
+    height: 50px;
+    text-align: center;
+}
+
+#container {
+    min-height: 100%;
+}
+hr {
+      
+     height: 2px; 
+     background-color: mediumseagreen; 
+       
+}
+
+#carrito {
+    width: 15%;
+    min-height: 100px;
+    float: left: ;
+    padding-left: 
+    
+    border: black 1px solid;
+}
+
+#pie_de_pagina {
+/*    margin-bottom: auto;   */
+    width: 100% !important;
+    height: 10px;
+}
